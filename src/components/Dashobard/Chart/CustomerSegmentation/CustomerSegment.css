@@ -1,0 +1,21 @@
+.apexcharts-toolbar {
+    display: none !important;
+    background: red;
+  }
+  .chart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px; /* Add margin as needed */
+  }
+  
+  .chart-wrap {
+    margin-bottom: 20px; /* Add margin as needed */
+  }
+  
+  .legend-buttons button {
+    margin: 5px; /* Add margin as needed */
+  }
+  

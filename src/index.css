@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* table border css 
+right  */
+.border-r {
+  border-right: 1px solid #E8E9EB;
+   /* Replace with your desired border color */
+}
+
+.button-common {
+  width: 75px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  text-transform: capitalize;
+  box-shadow: none !important;
+}
+
+
+.button-common:hover{
+  box-shadow: none !important;
+}
+.ripple-effect{
+  box-shadow: none !important;
+}
+
+.card-shadow:hover{
+  box-shadow: 4px 10px 32px 0px #4A58EC;
+  -webkit-box-shadow: 0px 5px 0px -3px #4A58EC;
+  -moz-box-shadow: 0px 5px 0px -3px #4A58EC;
+}
+
+pagination active button color 
+.active-button {
+  color: #4A58EC; /* Replace with your desired hex color code */
+}
+
+/* for modal  */
+/* Add this style to your CSS/SCSS file */
+@media (max-width: 768px) { /* Adjust the max-width as needed */
+  .modal-content {
+    max-height: 100vh; /* Adjust the percentage or pixel value as needed */
+    overflow-y: scroll;
+   
+  }
+}

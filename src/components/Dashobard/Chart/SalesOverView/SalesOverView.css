@@ -1,0 +1,8 @@
+.apexcharts-toolbar{
+    display : none !important 
+  }
+@media (max-width: 767px) {
+    #chart .apexcharts-legend {
+      display: none !important;
+    }
+  }
